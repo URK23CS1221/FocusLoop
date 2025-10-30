@@ -23,7 +23,7 @@ const limiter = rateLimit({
 const app = express();
 app.use(limiter);
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://athena-flame.vercel.app'],
+  origin: ['http://localhost:5173', 'https://focus-loop-seven.vercel.app'],
   credentials: true
 }));
 app.use(express.json());
