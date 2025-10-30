@@ -3,54 +3,62 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-background-color: #f8f9fb;
-  --color-background-color-contrast: #e8e9ed;
+  /* Backgrounds */
+  --color-background-color: #f7f8f5;
+  --color-background-color-contrast: #e8e9e6;
 
   --color-background-primary: #ffffff;
-  --color-background-primary-contrast: #f1f3f6;
-  --color-background-secondary: #e9efff;
-  --color-background-secondary-contrast: #d1e2ff;
+  --color-background-primary-contrast: #f2f3f1;
+  --color-background-secondary: #f0f5f3;
+  --color-background-secondary-contrast: #dfe7e4;
 
+  /* Cards */
   --color-card-background: #ffffff;
-  --color-card-border: #dcdfe3;
-  --color-card-shadow: rgba(0, 0, 0, 0.08);
+  --color-card-border: #d9ddd8;
+  --color-card-shadow: rgba(12, 12, 12, 0.06);
 
-  --color-text-primary: #1b1f23;
-  --color-text-secondary: #4b5563;
-  --color-text-muted: #6b7280;
-  --color-text-accent: #2f5dff;
-  --color-text-athena: #c61f48;
+  /* Text */
+  --color-text-primary: #1a1c19;         /* charcoal */
+  --color-text-secondary: #3d413d;
+  --color-text-muted: #6b6f6a;
+  --color-text-accent: #e05b5b;          /* coral red */
+  --color-text-athena: #2d6a4f;          /* deep sage green */
 
+  /* Inputs */
   --color-input-background: #ffffff;
-  --color-input-border: #d1d5db;
-  --color-input-focus: #2f5dff;
-  --color-input-placeholder: #9ca3af;
+  --color-input-border: #c8ccc7;
+  --color-input-focus: #2d6a4f;
+  --color-input-placeholder: #8b8f89;
 
-  --color-button-primary: #2f5dff;
+  /* Buttons */
+  --color-button-primary: #2d6a4f;        /* sage green */
   --color-button-primary-text: #ffffff;
-  --color-button-secondary: #e5e7eb;
-  --color-button-secondary-text: #1f2937;
-  --color-button-danger: #ef4444;
-  --color-button-success: #22c55e;
+  --color-button-secondary: #f0f1ef;
+  --color-button-secondary-text: #1f2420;
+  --color-button-danger: #d94848;
+  --color-button-success: #5cb85c;
 
-  --color-button-primary-hover: #2047e3;
-  --color-button-secondary-hover: #d1d5db;
-  --color-button-danger-hover: #dc2626;
-  --color-button-success-hover: #16a34a;
+  /* Button Hover */
+  --color-button-primary-hover: #245b44;
+  --color-button-secondary-hover: #e3e4e2;
+  --color-button-danger-hover: #b93535;
+  --color-button-success-hover: #4aa84a;
 
-  --color-border-primary: #cbd5e1;
-  --color-border-secondary: #e5e7eb;
+  /* Borders & Shadows */
+  --color-border-primary: #cdd0cb;
+  --color-border-secondary: #e3e5e1;
+  --color-shadow-primary: rgba(10, 10, 10, 0.08);
+  --color-shadow-hover: rgba(10, 10, 10, 0.15);
 
-  --color-shadow-primary: rgba(0, 0, 0, 0.1);
-  --color-shadow-hover: rgba(0, 0, 0, 0.2);
+  /* Alerts */
+  --color-success-bg: #e7f4ec;
+  --color-success-text: #1e5036;
+  --color-error-bg: #fde8e8;
+  --color-error-text: #7f1d1d;
 
-  --color-success-bg: #dcfce7;
-  --color-success-text: #166534;
-  --color-error-bg: #fee2e2;
-  --color-error-text: #991b1b;
-
-  --color-link: #2563eb;
-  --color-link-hover: #1d4ed8;
+  /* Links */
+  --color-link: #e05b5b;
+  --color-link-hover: #c24747;
 }
 
 .dark {
